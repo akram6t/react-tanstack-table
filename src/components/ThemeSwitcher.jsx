@@ -27,7 +27,7 @@ export function ThemeSwitcher(){
 
 
     return(
-        <span onClick={toggleTheme}>
+        <span onClick={toggleTheme} className='dark:text-white'>
             {
                 isDarkTheme ? <IoMdMoon size={24}/> : <IoMdCloud size={24}/>
             }

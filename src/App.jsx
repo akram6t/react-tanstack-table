@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className='max-w-screen-xl mx-auto p-2'>
       <div className='flex py-5 items-center justify-between'>
-        <h1 className='text-xl font-bold'>TanStack Table Example</h1>
+        <h1 className='text-xl dark:text-white font-bold'>TanStack Table Example</h1>
         <span className='p-2 bg-white dark:bg-black cursor-pointer rounded-full'>
           <ThemeSwitcher />
         </span>

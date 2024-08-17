@@ -5,7 +5,6 @@ import {
   getFilteredRowModel,
   getPaginationRowModel,
   getSortedRowModel,
-  ColumnDef,
 } from '@tanstack/react-table';
 
 const MyTable = ({ data }) => {
